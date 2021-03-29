@@ -37,3 +37,34 @@ body {
     z-index: -1;
     animation: fadeIn 0.5s linear;
 }
+
+.listBox {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.listBox ul{
+    width: 150px;
+}
+button:focus{
+    outline: none;
+
+}
+
+button{
+    padding: 2px;
+}
+
+button:nth-child(1){
+}
+
+li span{
+    margin-right: 4px;
+}
+.toDoList{
+    border-right: 2px solid rgba(0,0,0,0.5);
+}
+
+.state{
+    display: none;
+}
